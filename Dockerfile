@@ -6,7 +6,7 @@ ENV CASSANDRA_HOST="127.0.0.1" \
     CASSANDRA_PORT="9042" \
     CASSANDRA_USERNAME="cassandra" \
     CASSANDRA_PASSWORD="cassandra" \
-    WEB_UI_PORT="3000"
+    WEB_UI_PORT="80"
 
 ADD entrypoint.sh /
 
